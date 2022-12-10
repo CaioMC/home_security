@@ -3,7 +3,7 @@ create table bio_entrada
     identificador         uuid        not null,
     individuo_id          uuid        not null,
     sensor_biometrico_id  uuid        not null,
-    data_hora             TIMESTAMP    not null,
+    data_hora             TIMESTAMP    not null
 );
 
 create table bio_saida
@@ -11,7 +11,7 @@ create table bio_saida
     identificador         uuid        not null,
     individuo_id          uuid        not null,
     sensor_biometrico_id  uuid        not null,
-    data_hora             TIMESTAMP    not null,
+    data_hora             TIMESTAMP    not null
 );
 
 create table comodo
