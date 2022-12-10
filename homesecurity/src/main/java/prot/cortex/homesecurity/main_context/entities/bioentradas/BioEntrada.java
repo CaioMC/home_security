@@ -20,7 +20,7 @@ import java.util.UUID;
 public class BioEntrada {
     @Id
     private UUID identificador;
-    private UUID individuo_id;
-    private UUID sensor_biometrico_id;
+    private UUID individuoid;
+    private UUID sensorBiometricoId;
     private LocalDateTime dataHora;
 }
