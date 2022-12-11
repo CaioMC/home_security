@@ -1,6 +1,7 @@
-package prot.cortex.homesecurity.main_context.entities.bioentradas;
+package prot.cortex.homesecurity.main_context.entities.individuo.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
@@ -16,11 +17,12 @@ import java.util.UUID;
 @Entity
 @DynamicInsert
 @DynamicUpdate
-@Table(name = "bio_entrada")
-public class BioEntrada {
+@Table(name = "individuo")
+@Getter
+public class Individuo {
     @Id
     private UUID identificador;
-    private UUID individuoid;
-    private UUID sensorBiometricoId;
-    private LocalDateTime dataHora;
+    private String nome;
+    private String cpf;
+    private String biometria;
 }

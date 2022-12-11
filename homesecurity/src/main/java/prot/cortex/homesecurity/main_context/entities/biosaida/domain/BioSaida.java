@@ -1,4 +1,4 @@
-package prot.cortex.homesecurity.main_context.entities.individuo;
+package prot.cortex.homesecurity.main_context.entities.biosaida.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -16,11 +16,12 @@ import java.util.UUID;
 @Entity
 @DynamicInsert
 @DynamicUpdate
-@Table(name = "individuo")
-public class Individuo {
+@Table(name = "bio_saida")
+public class BioSaida {
     @Id
     private UUID identificador;
-    private String nome;
-    private String cpf;
-    private String biometria;
+    private UUID individuo_id;
+    private UUID sensor_biometrico_id;
+    private LocalDateTime dataHora;
+
 }

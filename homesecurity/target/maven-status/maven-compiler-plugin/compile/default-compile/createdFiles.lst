@@ -1,0 +1,9 @@
+prot/cortex/homesecurity/main_context/entities/individuo/api/IndividuoController.class
+prot/cortex/homesecurity/main_context/entities/individuo/domain/IndividuoService.class
+prot/cortex/homesecurity/main_context/entities/individuo/domain/Individuo.class
+prot/cortex/homesecurity/main_context/entities/individuo/domain/IndividuoRepository.class
+prot/cortex/homesecurity/main_context/entities/comodo/domain/Comodo.class
+prot/cortex/homesecurity/main_context/entities/bioentradas/domain/BioEntrada.class
+prot/cortex/homesecurity/ServletInitializer.class
+prot/cortex/homesecurity/main_context/entities/biosaida/domain/BioSaida.class
+prot/cortex/homesecurity/HomeSecurityApplication.class

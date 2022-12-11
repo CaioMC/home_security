@@ -1,4 +1,4 @@
-package prot.cortex.homesecurity.main_context.entities.comodo;
+package prot.cortex.homesecurity.main_context.entities.comodo.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
