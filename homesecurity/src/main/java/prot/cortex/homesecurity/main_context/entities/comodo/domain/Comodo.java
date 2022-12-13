@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -18,6 +19,7 @@ import java.util.UUID;
 @DynamicUpdate
 @Table(name = "comodo")
 @Getter
+@CrossOrigin(origins = "*")
 public class Comodo {
 
     @Id
