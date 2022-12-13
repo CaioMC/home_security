@@ -1,6 +1,7 @@
 /home/caio.coelho@jv01.local/Documentos/COLLEGE_space/IOT/home_security/homesecurity/src/main/java/prot/cortex/homesecurity/main_context/entities/biosaida/domain/BioSaida.java
 /home/caio.coelho@jv01.local/Documentos/COLLEGE_space/IOT/home_security/homesecurity/src/main/java/prot/cortex/homesecurity/main_context/entities/individuo/domain/IndividuoRepository.java
 /home/caio.coelho@jv01.local/Documentos/COLLEGE_space/IOT/home_security/homesecurity/src/main/java/prot/cortex/homesecurity/main_context/entities/comodo/domain/Comodo.java
+/home/caio.coelho@jv01.local/Documentos/COLLEGE_space/IOT/home_security/homesecurity/src/main/java/prot/cortex/homesecurity/SwaggerConfig.java
 /home/caio.coelho@jv01.local/Documentos/COLLEGE_space/IOT/home_security/homesecurity/src/main/java/prot/cortex/homesecurity/main_context/entities/individuo/domain/Individuo.java
 /home/caio.coelho@jv01.local/Documentos/COLLEGE_space/IOT/home_security/homesecurity/src/main/java/prot/cortex/homesecurity/main_context/entities/individuo/domain/IndividuoService.java
 /home/caio.coelho@jv01.local/Documentos/COLLEGE_space/IOT/home_security/homesecurity/src/main/java/prot/cortex/homesecurity/ServletInitializer.java

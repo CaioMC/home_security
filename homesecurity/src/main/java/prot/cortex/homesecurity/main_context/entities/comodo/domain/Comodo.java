@@ -1,6 +1,7 @@
 package prot.cortex.homesecurity.main_context.entities.comodo.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
@@ -16,10 +17,11 @@ import java.util.UUID;
 @DynamicInsert
 @DynamicUpdate
 @Table(name = "comodo")
+@Getter
 public class Comodo {
 
     @Id
-    private UUID identificador;
+    private UUID id;
     private String nome;
 
 }

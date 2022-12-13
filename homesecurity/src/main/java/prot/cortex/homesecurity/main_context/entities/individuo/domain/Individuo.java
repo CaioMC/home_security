@@ -21,7 +21,7 @@ import java.util.UUID;
 @Getter
 public class Individuo {
     @Id
-    private UUID identificador;
+    private UUID id;
     private String nome;
     private String cpf;
     private String biometria;

@@ -1,4 +1,5 @@
 prot/cortex/homesecurity/main_context/entities/individuo/api/IndividuoController.class
+prot/cortex/homesecurity/SwaggerConfig.class
 prot/cortex/homesecurity/main_context/entities/individuo/domain/IndividuoService.class
 prot/cortex/homesecurity/main_context/entities/individuo/domain/Individuo.class
 prot/cortex/homesecurity/main_context/entities/individuo/domain/IndividuoRepository.class
