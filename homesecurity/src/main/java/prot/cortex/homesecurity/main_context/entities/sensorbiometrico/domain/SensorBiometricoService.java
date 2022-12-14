@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import prot.cortex.homesecurity.main_context.entities.sensorbiometrico.api.SensorBiometricoDTO;
+import java.util.List;
+
 
 @Service
 @AllArgsConstructor
@@ -24,6 +26,10 @@ public class SensorBiometricoService {
                 .comodo_id(dto.getComodo_id())
                 .build()
         );
+    }
+
+    public List<SensorBiometrico> getAllBiometria() {
+       return this.sensorBiometricoRepository.findAll();
     }
 
 }
