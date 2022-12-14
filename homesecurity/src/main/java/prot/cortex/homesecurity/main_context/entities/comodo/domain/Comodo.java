@@ -1,6 +1,8 @@
 package prot.cortex.homesecurity.main_context.entities.comodo.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicInsert;
@@ -19,7 +21,7 @@ import java.util.UUID;
 @DynamicUpdate
 @Table(name = "comodo")
 @Getter
-@CrossOrigin(origins = "*")
+@Builder
 public class Comodo {
 
     @Id

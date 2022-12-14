@@ -1,6 +1,7 @@
 package prot.cortex.homesecurity.main_context.entities.sensorbiometrico.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicInsert;
@@ -18,6 +19,7 @@ import java.util.UUID;
 @DynamicUpdate
 @Table(name = "sensor_biometrico")
 @Getter
+@Builder
 public class SensorBiometrico {
     @Id
     private UUID id;

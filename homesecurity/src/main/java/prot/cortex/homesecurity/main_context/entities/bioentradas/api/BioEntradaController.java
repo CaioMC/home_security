@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,14 +20,14 @@ import java.util.List;
 @AllArgsConstructor
 @Api(value = "Dados referente a entrada")
 @RequestMapping(path = "/api/v1/bioentrada", produces = { MediaType.APPLICATION_JSON_VALUE })
+@CrossOrigin(origins = "*")
 public class BioEntradaController {
 
     private final BioEntradaService bioEntradaService;
 
     @PostMapping
-    public ResponseEntity<Void> registrarEntrada(@RequestBody BioEntrada bioEntrada) {
-        if (!StringUtils.isEmpty(bioEntrada.getId()))
-            this.bioEntradaService.registrarEntrada(bioEntrada);
+    public ResponseEntity<Void> registrarEntrada(@RequestBody BioEntradaDTO bioEntradaDTO) {
+        this.bioEntradaService.registrarEntrada(bioEntradaDTO);
         return ResponseEntity.ok().build();
     }
 

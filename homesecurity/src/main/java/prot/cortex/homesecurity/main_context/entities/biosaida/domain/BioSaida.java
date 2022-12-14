@@ -1,6 +1,7 @@
 package prot.cortex.homesecurity.main_context.entities.biosaida.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicInsert;
@@ -21,7 +22,7 @@ import java.util.UUID;
 @DynamicUpdate
 @Table(name = "bio_saida")
 @Getter
-@CrossOrigin(origins = "*")
+@Builder
 public class BioSaida {
     @Id
     private UUID id;

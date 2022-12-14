@@ -23,9 +23,8 @@ public class ComodoController {
     private final ComodoService comodoService;
 
     @PostMapping
-    public ResponseEntity<Void> registrarComodo(@RequestBody Comodo comodo) {
-        if (!StringUtils.isEmpty(comodo.getId()))
-            this.comodoService.registrarComodo(comodo);
+    public ResponseEntity<Void> registrarComodo(@RequestBody ComodoDTO comodoDTO) {
+        this.comodoService.registrarComodo(comodoDTO);
         return ResponseEntity.ok().build();
     }
 
